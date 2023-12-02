@@ -15,4 +15,4 @@ while (line := input("").lower()) != '':
     if digits:
         total += int(digits[0] + (digits[-1] if len(digits) > 1 else digits[0]))
 
-print("Total:", total)
+print(total)
